@@ -1,0 +1,86 @@
+/* General */
+body {
+  background-color: rgb(243,205,178);
+  color: #333333;
+  font-family: 'Berkshire Swash', cursive;;
+}
+
+/* Header */
+.header {
+  background-color: #333333;
+  color: #FFFCEC;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 10px solid salmon;
+}
+
+.headerText {
+  margin: 0;
+}
+
+/* Quiz Container */
+.container {
+  max-width: 768px;
+  margin-top: 30px;
+  border: 1px solid 333333;
+  border-radius: 2px;
+  box-shadow: 8px 8px 15px #333333;
+  background-color: #FFFCEC;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Timer Column */
+
+.timerColumn {
+  display: table;
+}
+.timer {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+/* Need to add this class every second (and remove?) within interval */
+
+/* Question and Answers Column */
+.questionArea {
+  width: 100%;
+  text-align: center;
+}
+
+.question {
+  font-weight: bolder;
+}
+
+.choice {
+  max-width: 75%;
+  margin: 10px auto;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  color: #333333;
+}
+
+.choice:hover {
+  background-color: #333333;
+  color: #FFFCEC;
+}
+
+/* Result Area */
+.resultRow {
+  height: 20px;
+  border-top: 2px solid black;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.test {
+  border: 1px solid red;
+}
+
+
+
+/* Media Queries */
+/* @media screen only and  */
